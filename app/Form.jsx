@@ -36,7 +36,7 @@ class Form extends Component {
         signupMessage: response.message
       });
 
-      window.location.href = '/';
+      // window.location.href = '/';
     })
   }
 
