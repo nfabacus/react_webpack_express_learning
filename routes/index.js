@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express', scriptFileName: 'entry.js' });
+  res.render('index', { title: 'Express Framework', scriptFileName: 'entry.js' });
 });
 
 router.get('/signup', function(req, res, next) {
